@@ -1,0 +1,17 @@
+# LOVE Workflow Shit lol
+
+name: LÖVE Build
+  # You may pin to the exact commit or the version.
+  # uses: nhartland/love-build@22f25bb81f76824c33df5ca6327e7b398c747000
+uses: nhartland/love-build@v1-beta3
+  with
+    # Name of the application to be built
+    app_name: Zom
+    # Version of LÖVE to be used in building the application
+    love_version: # default is 11.3
+    # Path to dependencies rockspec relative to GitHub workspace
+    dependencies: # optional
+    # Path in the repository to the subdirectory containing `main.lua`. By default the repo root
+    source_dir: # default is ./
+    # Directory in the GitHub workspace where the built distributables should be located
+    result_dir: # default is release
